@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+}
+
+.container {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px; /* Added max-width for responsiveness */
+    width: 100%; /* Added to make it responsive */
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* Adjusted to stack input and button vertically */
+    margin-bottom: 20px;
+}
+
+#search-input {
+    flex: 1;
+    padding: 10px;
+    margin-bottom: 10px; /* Added some spacing between input and button */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#weather-result {
+    margin-bottom: 20px;
+    text-align: center; /* Center-align the weather result */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
